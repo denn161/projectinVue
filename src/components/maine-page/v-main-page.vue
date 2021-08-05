@@ -5,9 +5,9 @@
   <h1>Online Shop</h1>
   <router-link class="main-page__link" :to= "{name:'Catalog'}"><p>Catalog</p></router-link>
 
-  <div class="main-page__img">
-    <!-- <img src="./guitarShop1.jpg" alt="photo"> -->
-  </div>
+  
+  <slider
+ />
   
 
 </div>
@@ -15,8 +15,12 @@
 </template>
 
 <script>
+import slider from '../slider/slider.vue'
 
 export default{
+  components:{
+    slider
+  }
    
 }
 </script>
@@ -27,8 +31,8 @@ export default{
 .main-page{
    width: 100%;
    height: 100vh;  
-   margin-top: 70px;
-   text-align: center;  
+   margin-top: 100px;
+    text-align: center;
 }
 .main-page__link{
     display:block;

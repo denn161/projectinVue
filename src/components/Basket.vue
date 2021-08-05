@@ -98,7 +98,7 @@ export default {
 }
 
 .basket__list{
-   
+    z-index: 101;
     list-style: none;
    
     /* flex-direction: column;
@@ -109,7 +109,7 @@ export default {
     position:relative;
     width: 100%;
     height:100vh;
-    position:relative;
+  
 
 }
 
